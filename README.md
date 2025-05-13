@@ -48,6 +48,15 @@ TimeDistributed Dense Layer with softmax
 
 ---
 
+## 📂 Project Structure
+
+├── ner_dataset.csv # Input dataset with words, POS tags, entity labels
+├── ner_bilstm_lstm_model.h5 # (Not included – exceeds GitHub's file size limit)
+├── NER_BiLSTM_LSTM.ipynb # Full training & evaluation code
+├── README.md # Project documentation
+
+---
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
