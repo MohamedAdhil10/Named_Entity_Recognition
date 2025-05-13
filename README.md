@@ -13,7 +13,6 @@ This project demonstrates how to build a Named Entity Recognition (NER) model us
 - [Screenshots](#-screenshots)
 - [Limitations](#-limitations)
 - [Future Work](#-future-work)
-- [License](#-license)
 
 ---
 
@@ -107,7 +106,3 @@ Open and run each cell of `NER_BiLSTM_LSTM.ipynb` to train and evaluate the mode
 - Deploy the model using Streamlit or Flask.
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
