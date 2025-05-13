@@ -10,9 +10,11 @@ This project demonstrates how to build a Named Entity Recognition (NER) model us
 - [Model Architecture](#-model-architecture)
 - [Setup Instructions](#-setup-instructions)
 - [Training Results](#-training-results)
+- [Project Structure](#-project-structure)
 - [Screenshots](#-screenshots)
 - [Limitations](#-limitations)
 - [Future Work](#-future-work)
+- [License](#-license)
 
 ---
 
@@ -48,15 +50,6 @@ TimeDistributed Dense Layer with softmax
 
 ---
 
-## 📂 Project Structure
-
-├── ner_dataset.csv # Input dataset with words, POS tags, entity labels
-├── ner_bilstm_lstm_model.h5 # (Not included – exceeds GitHub's file size limit)
-├── NER_BiLSTM_LSTM.ipynb # Full training & evaluation code
-├── README.md # Project documentation
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -88,15 +81,29 @@ Open and run each cell of `NER_BiLSTM_LSTM.ipynb` to train and evaluate the mode
 
 ---
 
+## Project Structure
+
+```
+.
+├── ner_dataset.csv # Input dataset with words, POS tags, entity labels
+├── ner_bilstm_lstm_model.h5 # (Not included – exceeds GitHub's file size limit)
+├── NER_BiLSTM_LSTM.ipynb # Full training & evaluation code
+└── README.md # Project documentation                  
+```
+
+---
+
 ## 📸 Screenshots
 
 ### 📉 Training Loss Over Epochs
 
-![Training over loss epoch](https://github.com/user-attachments/assets/c8330c0d-2aea-48f9-bb89-17f140cb1c57)
+![Training over loss epoch](https://github.com/user-attachments/assets/2edd8470-fedd-48e8-a124-8e29b9b9c0a0)
+
 
 ### 🧾 spaCy NER Visualization
 
-![NER_Output](https://github.com/user-attachments/assets/ce25e478-eb5e-436b-8e44-3ca971f3480e)
+![NER_Output](https://github.com/user-attachments/assets/c02e6992-e6ba-4005-bb2d-1a7bd91d534a)
+
 
 ---
 
@@ -115,3 +122,7 @@ Open and run each cell of `NER_BiLSTM_LSTM.ipynb` to train and evaluate the mode
 - Deploy the model using Streamlit or Flask.
 
 ---
+
+## 📄 License
+
+This project is licensed under the MIT License.
