@@ -85,10 +85,10 @@ Open and run each cell of `NER_BiLSTM_LSTM.ipynb` to train and evaluate the mode
 
 ```
 .
-├── ner_dataset.csv           # Input dataset with words, POS tags, entity labels
-├── ner_bilstm_lstm_model.h5  # (Not included – exceeds GitHub's file size limit)
 ├── NER_BiLSTM_LSTM.ipynb     # Full training & evaluation code
-└── README.md                 # Project documentation                  
+├── ner_bilstm_lstm_model.h5  # (Not included – exceeds GitHub's file size limit)
+├── README.md                 # Project documentation
+└── ner_dataset.csv           # Input dataset with words, POS tags, entity labels                 
 ```
 
 ---
